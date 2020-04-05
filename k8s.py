@@ -10,10 +10,10 @@ def list_pods():
     return convert_data
 
 
-def filtering_data(data):
+def filtering_data(obj):
     new = []
-    for i in range(0, len(data), 6):
-        new.append(data[i: i + 6])
+    for i in range(0, len(obj), 6):
+        new.append(obj[i: i + 6])
     return new
 
 
