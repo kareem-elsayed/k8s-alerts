@@ -4,7 +4,7 @@ from time import sleep
 
 def main():
     data = Pod()
-    pods_list = data.filtering_data(data.list_pods())
+    pods_list = data.filtering_data()
     data.catching_errors(pods_list)
 
 
