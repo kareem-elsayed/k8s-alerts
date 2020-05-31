@@ -8,7 +8,7 @@ it show all failure kubernetes status that we got from `kubectl`
             "ImagePullBackOff"
 ``
 
-**How to usa:**
+**How to use:**
 - python3.x
 
 - Make sure you have `kubectl`
