@@ -12,9 +12,9 @@ it show all failure kubernetes status that we got from `kubectl`
 **How to usa:**
 - python3.x
 
-- make sure you have `kubctl`
+- Make sure you have `kubectl`
 
-- just run `python3 app.py`
+- Just run `python3 app.py`
 
-- also you can set a duration time in min `python3 app.py --d=1`
+- Also you can set a duration time in min `python3 app.py --d=1`
 
