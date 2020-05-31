@@ -11,7 +11,7 @@ class Pod:
             "ErrImagePull",
             "Error",
             "CrashLoopBackOff",
-            "ImagePullBackOff",
+            "ImagePullBackOff"
         ]
 
     # def filtering_data(self):

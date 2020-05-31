@@ -1,5 +1,13 @@
+import argparse
 from pods import Pod
 from time import sleep
+
+
+parser = argparse.ArgumentParser(description = 'k8s alert helper!')
+parser.add_argument("--d", default = 5, help = "set duration time in min (Default is 5)")
+args = parser.parse_args()
+d = args.d
+d_time = int(d)
 
 
 def main():
@@ -8,11 +16,11 @@ def main():
     data.catching_errors(pods_list)
 
 
-while True:
-    if __name__ == "__main__":
+if __name__ == "__main__":
+    while True:
         print('----------Refresh----------')
         main()
-        sleep(5)
+        sleep(d_time)
 
 
 
