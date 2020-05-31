@@ -1,5 +1,4 @@
 # k8s-alerts
-**a lightweight and simple alerting tool**
 
 it show all failure kubernetes status that we got from `kubectl`
 
