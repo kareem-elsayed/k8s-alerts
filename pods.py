@@ -14,12 +14,6 @@ class Pod:
             "ImagePullBackOff"
         ]
 
-    # def filtering_data(self):
-    #     new = []
-    #     for i in range(0, len(self.obj), 6):
-    #         new.append(self.obj[i: i + 6])
-    #     return new
-
     def filtering_data(self):
         for i in range(0, len(self.obj), 6):
             yield (self.obj[i: i + 6])
