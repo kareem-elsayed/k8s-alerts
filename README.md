@@ -17,4 +17,5 @@ it show all failure kubernetes status that we got from `kubectl`
 
 - Also you can set a duration time in min `python3 app.py --d=1`
 
-we still working on it
+
+We still working on it to be more efficient..
