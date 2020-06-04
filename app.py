@@ -4,7 +4,7 @@ from time import sleep
 
 
 parser = argparse.ArgumentParser(description = 'k8s alert helper!')
-parser.add_argument("--d", default = 5, help = "set duration time in min (Default is 5)")
+parser.add_argument("--d", default = 5, help = "set duration time in sec (Default is 5)")
 args = parser.parse_args()
 d = args.d
 d_time = int(d)
